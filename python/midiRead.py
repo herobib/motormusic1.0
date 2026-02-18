@@ -8,9 +8,6 @@ import time
 ser = serial.Serial("COM6", 115200)
 time.sleep(5)
 
-# перевести в полушаговый режим
-# настроить частоты
-
 mid = MidiFile("C:\\Users\\Herobib\\Desktop\\11.mid")
 current_time = 0
 
